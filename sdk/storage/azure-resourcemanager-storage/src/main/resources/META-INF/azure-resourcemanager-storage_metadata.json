@@ -1,5 +1,11 @@
 {
   "flavor": "azure",
+  "apiVersions": {
+    "Microsoft.Storage": [
+      "2025-08-01",
+      "2025-06-01"
+    ]
+  },
   "generatedFiles": [
     "src/main/java/com/azure/resourcemanager/storage/fluent/BlobContainersClient.java",
     "src/main/java/com/azure/resourcemanager/storage/fluent/BlobInventoryPoliciesClient.java",
